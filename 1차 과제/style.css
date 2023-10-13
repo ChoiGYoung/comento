@@ -1,9 +1,3 @@
-:root {
-  --color-blue: #202942;
-  --color-white: #ffffff;
-  --color-yellow: #fff6b1;
-}
-
 body {
   font-family: 'Chakra Petch', sans-serif;
   margin: 0;
@@ -23,23 +17,20 @@ ul {
 }
 
 #home {
-  background-color: var( --color-blue);
-  color: var(--color-white);
+  background-color: #202942;
+  color: #ffffff;
   padding: 5rem 1rem;
   padding-top: 4rem;
   text-align: center;
-}
-
-.home__title {
   font-weight: bold;
   font-size: 3rem;
   margin-bottom: 1rem;
-  text-shadow: 1px 1px 5px var( --color-blue);
 }
 
+
+
 #about {
-  background-color: var(--color-white);
-  color: var(--color-text);
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   padding: 3rem 0;
@@ -55,7 +46,7 @@ ul {
 }
 
 .title {
-  color: var( --color-blue);
+  color: #b31313;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -63,7 +54,7 @@ ul {
 .descriptions {
   margin-top: 0.5rem;
   margin-bottom: 2rem;
-  background-color: var(--color-yellow);
+  background-color: #fff6b1;;
   padding: 1rem;
   width: 600px;
   border-radius: 1rem;
@@ -80,7 +71,7 @@ ul {
   font-size: 1.5rem;
   height: 2.5rem;
   line-height: 2.5rem;
-  color: var( --color-blue);
+  color: #202942;
 }
 
 .description p {
