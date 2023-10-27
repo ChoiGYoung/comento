@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+    <table class="calculator">
+  
+      <td colspan="5">
+        <input type="text" id="enter">
+      </td>
+  
+      <tr>
+        <td class="num" onclick="add('7')">7</td>
+        <td class="num" onclick="add('8')">8</td>
+        <td class="num" onclick="add('9')">9</td>
+        <td class="calculation" onclick="add('+')">+</td>
+      </tr>
+  
+      <tr>
+        <td class="num" onclick="add('4')">4</td>
+        <td class="num" onclick="add('5')">5</td>
+        <td class="num" onclick="add('6')">6</td>
+        <td class="calculation"onclick="add('-')">-</td>
+      </tr>
+  
+      <tr>
+        <td class="num" onclick="add('1')">1</td>
+        <td class="num" onclick="add('2')">2</td>
+        <td class="num" onclick="add('3')">3</td>
+        <td class="calculation" onclick="add('*')">*</td>
+      </tr>
+  
+      <tr>
+        <td class="reset" onclick="clearDisplay()">C</td>
+        <td class="num" onclick="add('0')">0</td>
+        <td class="calculation" onclick="compute()">=</td>
+        <td class="calculation"onclick="add('/')">/</td>
+  
+      </table>
+      <button id="clear" class="calculation" onclick="clearHistory()">Clear History</button>
+      <div id="history" class="history"></div>
+      <script src="calculator.js"></script>
+    </body>
+    
+    </html>
