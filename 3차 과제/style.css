@@ -1,0 +1,94 @@
+.battery {
+    width: 120px;
+    height: 40px;
+    background-color: #F2F2F2;
+    margin-left: 620px;
+    border-radius: 15px;
+}
+
+.battery-level {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.current-time {
+    width: 500px;
+    height: 100px;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-size: 27px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.time-display {
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.time-container {
+    display: flex;
+    background-color: #F2F2F2;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+
+
+#alarm-list {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  #alarm-list li {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    font-size: 13px; 
+    border-radius: 15px;
+  }
+  
+  #alarm-list li button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  #alarm-list li button:hover {
+    background-color: #e64e2e;
+  }
+  
+  
+  .alarm {
+    width: 300px;
+    height: 200px;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px; 
+  }
