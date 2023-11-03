@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form id="registrationForm">
+        <label for="username">아이디:</label>
+        <input type="text" id="username" name="username" required>
+        <span id="usernameError" class="error"></span>
+        <button type="button" onclick="checkUsername()">중복 검사</button>
+        <br>
+        <label for="password">비밀번호:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error"></span>
+        <br>
+        <button type="submit" onclick="registerUser()">가입하기</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
